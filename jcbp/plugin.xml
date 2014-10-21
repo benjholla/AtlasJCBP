@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.importWizards">
+      <category
+            id="jcbp.ui.category"
+            name="Java Card Binary Project">
+      </category>
+      <wizard
+            category="Java Card Binary Project"
+            class="jcbp.ui.ImportCAPWizard"
+            icon="icons/JCBP.gif"
+            id="jcbp.ui.ImportCAPWizard"
+            name="Import Java Card Binary Project">
+         <description>
+            Import a WAR binary project into the workspace.
+         </description>
+      </wizard>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="jcbp.ui.PreferencePage"
+            id="jcbp.preferences"
+            name="JCBP Preferences">
+      </page>
+   </extension>
+
+</plugin>

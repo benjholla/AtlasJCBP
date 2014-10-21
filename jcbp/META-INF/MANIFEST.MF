@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Java Card Binary Processing
+Bundle-SymbolicName: jcbp;singleton:=true
+Bundle-Version: 0.26.1.qualifier
+Bundle-Activator: jcbp.Activator
+Bundle-Vendor: Ben Holland
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.ide,
+ org.eclipse.core.resources,
+ org.eclipse.jdt.core,
+ org.eclipse.jdt.launching;bundle-version="3.7.1",
+ org.eclipse.core.filesystem,
+ org.eclipse.equinox.common,
+ org.eclipse.ant.core;bundle-version="3.2.500",
+ com.ensoftcorp.atlas.core;bundle-version="0.26.1",
+ com.ensoftcorp.atlas.java.core;bundle-version="0.26.1",
+ com.ensoftcorp.atlas.java.ui;bundle-version="0.26.1",
+ com.ensoftcorp.abp.common;bundle-version="1.0.0",
+ ca.mcgill.sable.soot;bundle-version="2.5.2",
+ ca.mcgill.sable.soot.lib;bundle-version="2.5.2"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
